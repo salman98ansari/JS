@@ -27,3 +27,16 @@ yearsUntilRetirement(1969, 'Jane');
 
 //function statement and expressions..
 
+var calculate = function(score, outof){
+	var percentage =(score/outof)*100;
+	return percentage;
+}
+console.log(`my percentage is: ${calculate(60, 100)}`)
+
+//
+
+var added = function(num1, num2 = 0){
+    return num1 + num2
+}
+
+console.log(added("salman"));
