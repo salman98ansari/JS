@@ -21,7 +21,6 @@ console.log(`we have ${number.length} number`)
 
 
 
-
 //diferent data types
 
 var john = ['John', 'Smith', 1990, 'designer', false];
