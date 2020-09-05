@@ -64,6 +64,7 @@ console.log(value)
 const x= value.forEach((todo , index) => {
 	console.log(todo.title);
 })
+
 */
 
 const list ={
@@ -75,3 +76,5 @@ const list ={
 }
 
 console.log(list.mydes())
+
+//salman
